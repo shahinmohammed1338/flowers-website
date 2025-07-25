@@ -36,3 +36,20 @@
   list-style: none;
   gap: 48px;
 }
+
+.banner {
+  margin-top: 120px;
+}
+.banner-details {
+  width: 570px;
+  height: 300px;
+  gap: 13px;
+}
+.banner-title {
+  font-weight: bold;
+  font-size: 4rem;
+}
+.banner-img {
+  width: 570px;
+  height: 355px;
+}
