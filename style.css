@@ -20,6 +20,16 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.btn-primary {
+  background-color: #e95a08;
+  color: white;
+  width: 270px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
 /* navbar and banner related styles */
 .navbar,
 .banner {
@@ -52,4 +62,39 @@
 .banner-img {
   width: 570px;
   height: 355px;
+}
+/* card related styles */
+
+.cards-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card-details {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 120px;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card-description {
+  width: 888px;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+.item {
+  text-align: center;
+}
+.price {
+  font-weight: bold;
+  font-size: 1.5;
 }
