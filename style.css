@@ -126,3 +126,75 @@ main {
   font-weight: bold;
   font-size: 3rem;
 }
+
+/* deals related styles */
+
+.deals-details {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.discount-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.first-bg-img {
+  background-image: url(./assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  width: 367px;
+  height: 200px;
+  border-radius: 14px;
+}
+.bloom-flowers {
+  color: white;
+}
+.bloom-flowers a {
+  color: white;
+}
+.deals-title {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.discount-details {
+  align-items: center;
+  text-align: center;
+  padding: 65px 50px;
+}
+.scnd-bg-img {
+  background-image: url(./assets/deal-ana.png);
+  background-repeat: no-repeat;
+  width: 367px;
+  height: 200px;
+  margin-top: 25px;
+  border-radius: 14px;
+}
+.ana-flowers {
+  color: white;
+}
+.ana-flowers a {
+  color: white;
+}
+.thrd-bg-img {
+  background-image: url(./assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  width: 753px;
+  height: 423px;
+  border-radius: 22px;
+}
+.zabo-flowers {
+  color: white;
+}
+.zabo-flowers a {
+  color: white;
+}
+.zabo-discount-details {
+  font-weight: bold;
+  font-size: 2rem;
+  align-items: center;
+  text-align: center;
+  padding: 130px 200px 150px 200px;
+}
+.shop-link {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
