@@ -68,6 +68,8 @@
 main {
   max-width: 1140px;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 .cards {
   display: grid;
@@ -102,6 +104,8 @@ main {
 /* store related styles */
 
 .flowers-store {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   height: 597px;
   margin-top: 210px;
   margin-bottom: 130px;
@@ -197,4 +201,105 @@ main {
 .shop-link {
   font-weight: 600;
   font-size: 1.8rem;
+}
+
+/* bounch related styles */
+
+.last-bg-img,
+footer {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.last-bg-img {
+  background-image: url(./assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  height: 533px;
+  margin-top: 150px;
+}
+.last-bg-img {
+  width: 100%;
+}
+.bounch {
+  align-items: center;
+  text-align: center;
+}
+.bounch-title {
+  font-weight: bold;
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+}
+.email-input {
+  width: 644px;
+  height: 46px;
+}
+.input-and-sub-btn {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 195px 300px;
+}
+
+/* footer related styles */
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1120px;
+  height: 250px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-details {
+  width: 360px;
+  height: 80px;
+  margin-bottom: 80px;
+}
+.menu1 li {
+  list-style: none;
+  margin: 15px;
+}
+.menu2 li {
+  list-style: none;
+  margin: 15px;
+}
+
+/* responsive related styles */
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: row;
+  }
+  .discount-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .card-description {
+    text-align: center;
+    align-items: center;
+  }
+  .last-bg-img {
+    width: 100%;
+  }
+  .deals,
+  footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .trusted-badge {
+    visibility: hidden;
+  }
 }
